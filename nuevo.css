@@ -1,0 +1,148 @@
+    /* gif de fondo de  pantalla  */
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59f0d6bf2aeba5970460ca0c/1614900778218-RUFHH3XANEW86F0XRR1X/ASTON-MARTIN%C2%A0WITH-SIR-DAVID-ADJAYJE-high.gif?format=750w);
+    
+    
+}
+    /* cuadros de los ejecutivos */
+.staff{
+    display: grid;
+    grid-template-columns: repeat(6, 17%);
+    grid-template-rows: repeat(2, auto);
+    text-align: center; 
+}
+    /* efecto en las imagenes del los integrantes del equipo  */
+.equ{
+    overflow: hidden;
+    border-radius: 4px;
+    width: 500px;
+    height: 500px;
+}
+.equ img{
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.equ:hover img{
+    transform: scale(1.2);
+}
+.equ{
+    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+
+}
+.equ{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    /* bordes en los integrantes del equipo */
+.equipo{
+   border-radius: 2rem;
+
+}
+    /* espesifica a cada uno de los pilotos */
+.pilo{
+    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    /* imagenes de los piotos con efecto */
+.iman{
+    overflow: hidden;
+    border-radius: 4px;
+    width: 600px;
+    height: 500px;
+}
+.iman img{
+    transition: transform 900ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iman:hover img{
+    transform: scale(1.2);
+}
+.iman{
+    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+
+}
+.iman{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    /* configuracion de la informacion de los pilotos */
+.pilotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    text-align: center; 
+}
+    /* configuracion de borde de la informacion de los pilotos */
+.pilo{
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 1rem;
+    width: 20rem;  
+    height: 37rem;
+    background-color: rgba(3, 31, 22, 0.641);
+    
+}
+    /* uvicacion de la informacion de los pilotos incluyendoo sus imagenes */
+.reser{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    /* tamaño de las imagenes de los ejecutivos del equipo */
+.equipo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    /* centraliza la informacion */
+.jefe{
+    align-items: center;
+    text-align: center;
+}
+    /* cambia de color y tipo de letra de los titulos */
+h2{
+    font-family: Comic Sans MS;
+            font-size: 20px;
+            color: rgb(188, 228, 10);
+}
+    /* cambia de color los nombres */
+h4{
+    color: white;
+}
+    /* cabia de color los parrafos */
+p{
+    color: white;
+}
+    /* color y borde del sombreado de los ejecutivos y pilotos */
+.mar{
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.674);
+}
+    /* color y borde de los ejecutivos */
+.ti{
+    border-radius: 2rem;
+    background-color: rgba(3, 31, 22, 0.655);
+}
+    /* cambia el tipo de letra de la pagina */
+.general{
+    font-family: Comic Sans MS;
+}

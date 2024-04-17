@@ -1,0 +1,44 @@
+    /*borde del formulario */
+.formulario{
+    border-radius: 2rem;
+    width: 90%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.801); /* Negro con 50% de opacidad */
+    color: rgb(164, 44, 44); /* Texto en blanco para mejor visibilidad */
+    padding: 20px;
+    text-align: center;
+
+
+}
+    /* gif de fond de pantalla*/
+body{
+    background-image: url(https://image.email.formula1.com/lib/fe3311737364047f761677/m/1/2fc15211-79b3-4845-8c6d-22fc59d5f04d.gif);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 50% ;
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black ;
+}
+    /* formulario titulos y espacios para completar */ 
+.form{
+    margin-top: 7%;
+    padding: 7%;
+    margin-bottom: 7%;
+    font-weight: bold;
+}
+    /* area papra rellenar */
+.texto{
+    margin-top: 5%;
+    padding: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+}
+    /* estilo de letra */
+.general{
+    font-family: Comic Sans MS;
+}
